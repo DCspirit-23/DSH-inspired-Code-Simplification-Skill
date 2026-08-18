@@ -56,11 +56,16 @@ Codex skill 采用文件夹结构，其中 `SKILL.md` 为必需文件，其他�
 │   ├── SKILL.md
 │   └── agents/
 │       └── openai.yaml
+├── LICENSE
 ├── README.md
 └── README_ZH.md
 ```
 
 `find-code-simplifications/agents/openai.yaml` 已禁用隐式调用，因此只有在用户明确指定时才会运行本 skill。
+
+## 许可证
+
+本项目采用 [MIT License](LICENSE)。
 
 ## 来源
 

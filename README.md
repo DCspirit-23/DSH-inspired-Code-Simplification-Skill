@@ -56,11 +56,16 @@ For each strong candidate, the skill reports its location, consumer evidence, cu
 │   ├── SKILL.md
 │   └── agents/
 │       └── openai.yaml
+├── LICENSE
 ├── README.md
 └── README_ZH.md
 ```
 
 `find-code-simplifications/agents/openai.yaml` disables implicit invocation so the skill runs only when explicitly requested.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ## Origin
 
