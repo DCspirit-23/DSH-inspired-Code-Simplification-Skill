@@ -17,7 +17,7 @@
 
 ## 安装
 
-可以让 Codex 使用 `$skill-installer` 从本仓库安装，也可以将本仓库内容放入以下任一 skill 目录：
+可以让 Codex 使用 `$skill-installer` 从本仓库安装，也可以将 `find-code-simplifications` 文件夹复制到以下任一 skill 目录：
 
 - 用户级：`~/.agents/skills/find-code-simplifications`
 - 仓库级：`.agents/skills/find-code-simplifications`
@@ -52,14 +52,15 @@ Codex skill 采用文件夹结构，其中 `SKILL.md` 为必需文件，其他�
 
 ```text
 .
-├── SKILL.md
-├── agents/
-│   └── openai.yaml
+├── find-code-simplifications/
+│   ├── SKILL.md
+│   └── agents/
+│       └── openai.yaml
 ├── README.md
 └── README_ZH.md
 ```
 
-`agents/openai.yaml` 已禁用隐式调用，因此只有在用户明确指定时才会运行本 skill。
+`find-code-simplifications/agents/openai.yaml` 已禁用隐式调用，因此只有在用户明确指定时才会运行本 skill。
 
 ## 来源
 

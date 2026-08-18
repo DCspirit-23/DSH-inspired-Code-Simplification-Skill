@@ -17,7 +17,7 @@ It looks beyond cosmetic cleanup to find meaningful reductions in concepts and m
 
 ## Installation
 
-Ask Codex to install the skill from this repository with `$skill-installer`, or place this repository's contents in one of the supported skill directories:
+Ask Codex to install the skill from this repository with `$skill-installer`, or copy the `find-code-simplifications` folder to one of the supported skill directories:
 
 - User scope: `~/.agents/skills/find-code-simplifications`
 - Repository scope: `.agents/skills/find-code-simplifications`
@@ -52,14 +52,15 @@ For each strong candidate, the skill reports its location, consumer evidence, cu
 
 ```text
 .
-├── SKILL.md
-├── agents/
-│   └── openai.yaml
+├── find-code-simplifications/
+│   ├── SKILL.md
+│   └── agents/
+│       └── openai.yaml
 ├── README.md
 └── README_ZH.md
 ```
 
-`agents/openai.yaml` disables implicit invocation so the skill runs only when explicitly requested.
+`find-code-simplifications/agents/openai.yaml` disables implicit invocation so the skill runs only when explicitly requested.
 
 ## Origin
 
